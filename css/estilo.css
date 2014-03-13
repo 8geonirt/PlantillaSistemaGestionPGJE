@@ -1,0 +1,44 @@
+﻿body {
+  
+}
+.cn{
+	font-size: 20px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+.titulo_encabezado_1{
+	color: #87BB40;
+	font-size:1.8em;
+	margin-bottom:-1%;
+	padding-left:5%;
+}
+.titulo_encabezado_2{
+	overflow: hidden;
+	color: #4F9040;
+	font-size:1.8em;
+	padding-left:5%;
+	font-weight: bold;
+}
+.menu{
+	background-position: top right;
+	position:relative;
+	padding-top: 5%;
+}
+.fondo_banner{
+	background-image: url("../img/fondo-banner.png");
+	background-position: top right;
+	background-size: 100% auto;
+	background-repeat: no-repeat;	
+} 
+.logo img{
+	float:right;
+	width:69%;
+ 	border:none;	
+}
+.pedazo_verde{
+	background-image: url("../img/pedazo_verde.png");
+	background-repeat: repeat-x;
+	
+}
