@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<base href="<?php echo base_url(); ?>"/>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,7 +10,8 @@
 		<!------------- HOJAS DE ESTILO CSS  ------------------>
 		<link href="css/bootstrap.min.css" rel="stylesheet" />
 		<link href="css/estilo.css" rel="stylesheet"/>
-
+		<link href="css/font-awesome.css" rel="stylesheet" />
+		<link href="css/font-awesome.min.css" rel="stylesheet" />
 		<!------------- JQUERY  ------------------>
 		<!--<script src="//code.jquery.com/jquery-1.9.1.js"></script>-->
 		<script src="js/bootstrap.min.js"></script>
@@ -77,11 +77,16 @@
 			<div class="clearfix">
 				&nbsp;
 			</div>
-			<div>
+			<div class="alert alert-personalizado">
+				<i class="fa fa-warning fa-3x amarillo">&nbsp;</i><label class="fuente_roja">Nota:</label> Se requiere que la información proporcionada sea correcta para poder porporcionar un servicio de calidad
+			</div>
+
+			<div class="row">
 				<div class="col-md-6">&nbsp;</div>				
-				<div class="col-md-1">Icono 1</div>
-				<div class="col-md-1">Icono2</div>
-				<div class="col-md-4">&nbsp;</div>
+				<div class="col-md-1"><a href="#" class="btn btn-success"><i class="fa fa-cloud-download">Descargar manual</i></a></div>
+				<div class="col-md-1">&nbsp;</div>
+				<div class="col-md-1"><a href="#" class="btn btn-success"><i class="fa fa-envelope">Cont&aacute;ctanos</i></a></div>
+				<div class="col-md-3">&nbsp;</div>
 			</div>
 			<div class="row">
 				<form class="form-horizontal">
@@ -130,9 +135,36 @@
 				</form>
 			</div>
 		</div>
-		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<div id="footer" class="container_footer">  
+			<div class="row">
+				<div class="col-md-3"><!--<img src="img/icono_gobierno.png" width="75px" />--></div>
+			  	<div class="col-md-3">
+			  		<ul>Tr&aacute;mites y servicios</ul>
+			  		<ol>
+			  			<ul>Lista de tr&aacute;mites y servicios en l&iacute;nea</ul>
+			  			<ul>Cat&aacute;logo de tr&aacute;mites y servicios</ul>
+			  		</ol>
+			  	</div>
+			  	<div class="col-md-3">
+			  		<ul>Transparencia</ul>
+			  		<ul>Gobierno</ul>
+			  		<ol>
+			  			<ul>Gabinete</ul>
+			  			<ul>Secretar&iacute;s</ul>
+			  			<ul>H. Congreso del Estado</ul>
+			  			<ul>Supremo Tribunal de Justicia</ul>
+			  			<ul>Peri&oacute;dico oficial</ul>
+			  			<ul>Municipios</ul>
+			  			<ul>Estructura org&aacute;nica</ul>
+			  			<ul>Organismos desconcentrados, descentralizados y aut&oacute;nomos</ul>
+			  		</ol>
+			  	</div>
+			  	<div class="col-md-3">
+			  		<ul>Negocios</ul>
+			  	</div>
+			</div>
+    </div>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="js/bootstrap.min.js"></script>
 	</body>
 </html>

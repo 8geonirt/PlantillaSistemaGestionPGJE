@@ -1,4 +1,11 @@
-﻿.cn{
+﻿html{
+	position: relative;
+  	min-height: 100%;
+}
+body {
+  margin-bottom: 60px;
+}
+.cn{
 	font-size: 20px;
 }
 .starter-template {
@@ -10,6 +17,22 @@
 	font-size:1.8em;
 	margin-bottom:-1%;
 	padding-left:5%;
+}
+.alert-personalizado {
+	background-color: #F1E2A8;
+	border-color: #AAC24C;
+	color: #525252;
+}
+.fuente_roja {
+	color: #FF2A00;
+	font-weight: bold;
+	font-size: 18px;	
+}
+.amarillo{
+	color: #FACE07;
+}
+.separacion{
+	padding-left: 4%;
 }
 .titulo_encabezado_2{
 	overflow: hidden;
@@ -41,4 +64,30 @@
 .pedazo_verde{
 	background-image: url("../img/pedazo_verde.png");
 	background-repeat: repeat-x;
+}
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+#footer {
+  position: relative;
+  bottom: 0;
+  width: auto;
+  color:white;
+  height: auto;
+  background-color: black;
+}
+.container_footer {
+  width: auto;
+  max-width: 100%;
+  padding: 0 0;
+}
+.container_footer .text-muted {
+  margin: 20px 0;
 }
