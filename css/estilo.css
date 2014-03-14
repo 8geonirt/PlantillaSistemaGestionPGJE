@@ -1,12 +1,12 @@
 ﻿body {
-  
+ 
 }
 .cn{
 	font-size: 20px;
 }
 .starter-template {
-  padding: 40px 15px;
-  text-align: center;
+	padding: 40px 15px;
+	text-align: center;
 }
 .titulo_encabezado_1{
 	color: #87BB40;
@@ -28,17 +28,20 @@
 }
 .fondo_banner{
 	background-image: url("../img/fondo-banner.png");
-	background-position: top right;
-	background-size: 100% auto;
+	background-position: right 10px;
+	background-size: auto 100%;
 	background-repeat: no-repeat;	
+	height: 100px;
 } 
 .logo img{
 	float:right;
-	width:69%;
- 	border:none;	
+	height: 70%;
+	border:none;
+}
+.logo{
+	height:100px;
 }
 .pedazo_verde{
 	background-image: url("../img/pedazo_verde.png");
 	background-repeat: repeat-x;
-	
 }
