@@ -28,30 +28,32 @@
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav">
 						<li class="active">
-							<a href="#">Link</a>
+							<a href="#">Tr&aacute;mites y servicios</a>
 						</li>
 						<li>
-							<a href="#">Link</a>
+							<a href="#">Transparencia</a>
 						</li>
+						<li>
+							<a href="#">Negocios</a>
+						</li>
+						<li>
+							<a href="#">Gobierno</a>
+						</li>
+						<li>
+							<a href="#">Educaci&oacute;n</a>
+						</li>
+						
 						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">M&aacute;s<b class="caret"></b></a>
 							<ul class="dropdown-menu">
 								<li>
-									<a href="#">Action</a>
+									<a href="#">Turismo</a>
 								</li>
 								<li>
-									<a href="#">Another action</a>
+									<a href="#">Cultura</a>
 								</li>
 								<li>
-									<a href="#">Something else here</a>
-								</li>
-								<li class="divider"></li>
-								<li>
-									<a href="#">Separated link</a>
-								</li>
-								<li class="divider"></li>
-								<li>
-									<a href="#">One more separated link</a>
+									<a href="#">Seguridad</a>
 								</li>
 							</ul>
 						</li>
@@ -76,7 +78,7 @@
 				<div class="pedazo_naranja row col-md-2 col-sm-4 col-xs-4">
 					<label class="paso_1">PASO 1</label>
 					<label class="paso_1_1">datos personales</label>
-					<div class="triangulo">&nbsp;</div>
+					<div class="triangulo hidden-xs">&nbsp;</div>
 				</div>
 				<div class="pedazo_verde row col-md-9 col-sm-7 col-xs-5">&nbsp;</div>
 			</div>
@@ -95,12 +97,13 @@
 				<div class="col-lg-2 col-md-1 col-sm-1 col-xs-0">&nbsp;</div>
 				<div class="col-lg-2 col-md-1 col-sm-4 col-xs-0">&nbsp;</div>
 			</div>
+			<br/>
 			<div class="row">
 				<form class="form-horizontal">
 					<div class="form-group">
-						<label class="col-lg col-md-3 control-label">Tipo de Documento</label>
-						<div class="col-md-9">
-							<select id="selectbasic" name="selectbasic" class="input-sm col-lg">
+						<label class="col-lg-4 col-md-3 col-sm-4 col-xs-6 control-label text-right">Tipo de Documento</label>
+						<div class="col-lg-8 col-md-9 col-sm-8 col-xs-6">
+							<select id="selectbasic" name="selectbasic" class="input-sm">
 								<option>Seleccione...</option>
 								<option>Nacimiento</option>
 								<option>Documento 2</option>
@@ -109,33 +112,29 @@
 						</div>
 					</div>
 					<div class="form-group">
-						<label class="col-md-3 control-label">Nombre(s)</label>
-						<div class="col-md-9">
+						<label class="col-lg-4 col-md-3 col-sm-4 col-xs-6 text-right control-label">Nombre(s)</label>
+						<div class="col-lg-8 col-md-9 col-sm-8 col-xs-6">
 							<input id="nombre" name="nombre" type="text" placeholder="sin acentos" class="input-medium" required="">
 						</div>
 					</div>
 					<div class="form-group">
-						<label class="col-md-3 text-right">Primer Apellido</label>
-						<div class="col-md-9">
+						<label class="col-lg-4 col-md-3 col-sm-4 col-xs-6 text-right">Primer Apellido</label>
+						<div class="col-lg-8 col-md-9 col-sm-8 col-xs-6">
 							<input id="primer_apellido" name="primer_apellido" type="text" placeholder="sin acentos" class="input-medium" required="">
 						</div>
 					</div>
 					<div class="form-group">
-						<label class="col-md-3 control-label text-left">Segundo Apellido</label>
-						<div class="col-md-9">
+						<label class="col-lg-4 col-md-3 col-sm-4 col-xs-6 control-label text-right">Segundo Apellido</label>
+						<div class="col-lg-8 col-md-9 col-sm-8 col-xs-6">
 							<input id="segundo_apellido" name="segundo_apellido" type="text" placeholder="sin acentos" class="input-md" required="">
 						</div>
 					</div>
 					<div class="form-group">
-						<label class="col-md-3 control-label">Fecha de Nacimiento</label>
-						<div class="col-md-9">
-							<input id="fecha_nacimiento" name="fecha_nacimiento" type="date" placeholder="" class="input-md" required="">
-							<button id="mostrarActa" name="mostrarActa" class="btn btn-primary">
-								Mostrar acta
-							</button>
-							<button id="siguiente" name="siguiente" class="btn btn-primary">
-								Siguiente
-							</button>
+						<label class="col-lg-4 col-md-3 col-sm-4 col-xs-6 text-right control-label">Fecha de Nacimiento</label>
+						<div class="col-lg-8 col-md-9 col-sm-8 col-xs-6">
+							<input id="fecha_nacimiento" name="fecha_nacimiento" type="date" placeholder="" class="input-md btn-margin" required="">
+							<button id="mostrarActa" name="mostrarActa" class="btn btn-primary btn-margin">Mostrar acta</button>
+							<button id="siguiente" name="siguiente" class="btn btn-primary">Siguiente&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
 						</div>
 					</div>
 

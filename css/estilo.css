@@ -64,6 +64,9 @@ body {
 	margin-left: 0px;
 	margin-right:0px;
 }
+.texto_derecha{
+	text-align: right;
+}
 .triangulo { 
   	border-bottom: 20px solid #FFFFFF;
   	border-left: 20px dotted transparent;
@@ -78,6 +81,12 @@ body {
 	text-align: center;
 	font-size: 16px;
 }
+@media screen and (max-width:532px){  
+	.btn-margin{
+		margin-bottom: 2%;
+	}	  
+}  
+
 .pedazo_verde{
 	background-color:#A0CC41;
 	height: 100px;
