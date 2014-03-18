@@ -1,6 +1,5 @@
 ﻿html{
 	position: relative;
-  	min-height: 100%;
 }
 body {
   margin-bottom: 60px;
@@ -20,7 +19,7 @@ body {
 }
 .alert-personalizado {
 	background-color: #F1E2A8;
-	border-color: #AAC24C;
+	overflow:auto;
 	color: #525252;
 }
 .fuente_roja {
@@ -61,11 +60,52 @@ body {
 .logo{
 	height:100px;
 }
-.pedazo_verde{
-	background-image: url("../img/pedazo_verde.png");
-	background-repeat: repeat-x;
+.row{
+	margin-left: 0px;
+	margin-right:0px;
 }
-/* Sticky footer styles
+.triangulo { 
+  	border-bottom: 20px solid #FFFFFF;
+  	border-left: 20px dotted transparent;
+  	border-right: 20px dotted transparent;
+  	left: 0px; top: 0px;
+  	height: 0; width: 0; 
+  	/*margin-left:50%;
+  	margin-top:20%; */
+	z-index: 10;
+	margin: auto;
+	margin-top: 13%;
+}
+.alineacion_centrada{
+	text-align: center;
+	font-size: 16px;
+}
+.pedazo_verde{
+	background-color:#A0CC41;
+	height: 100px;
+}
+.btn-success_modificado{
+	color: #fff;
+	font-weight:bold;
+	background-color: #88BC3E;
+	border-color: #88BC3E;
+}
+.pedazo_naranja{
+	background-color:#ED6C21;
+	height: 100px;
+	font-size: 18px;
+	text-align: center;
+}
+.paso_1{
+	color:white;
+	font-size: 22px;
+	font-weight: bold;
+}
+.paso_1_1{
+	color:white;
+	font-size: 16px;
+	font-weight:normal;
+}/* Sticky footer styles
 -------------------------------------------------- */
 html {
   position: relative;
@@ -75,19 +115,31 @@ body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
 }
+
 #footer {
-  position: relative;
-  bottom: 0;
-  width: auto;
-  color:white;
-  height: auto;
-  background-color: black;
+    background-color:black;
+    background-image: url("../img/bg_footer.gif");
+    background-repeat: repeat-x;
+    text-align:left;
+    font-family: calibri, arial, tahoma;
+	font-size: 12px;
+	color: #999;
+	text-decoration:none;
+	list-style:none;
+	margin-top:50px;
+	padding-top:0px;
 }
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
 .container_footer {
   width: auto;
-  max-width: 100%;
-  padding: 0 0;
+  height:100%;
+  padding: 0 15px;
 }
-.container_footer .text-muted {
-  
+.container .text-muted {
+  margin: 20px 0;
 }
