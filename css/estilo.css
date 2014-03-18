@@ -70,8 +70,6 @@ body {
   	border-right: 20px dotted transparent;
   	left: 0px; top: 0px;
   	height: 0; width: 0; 
-  	/*margin-left:50%;
-  	margin-top:20%; */
 	z-index: 10;
 	margin: auto;
 	margin-top: 13%;
@@ -122,14 +120,14 @@ body {
 		linear,
 		left top,
 		left bottom,
-		color-stop(0.6, #3A3D38),
-		color-stop(1, #10120F)
+		color-stop(0.51, #0A080A),
+		color-stop(0.88, #292729)
 	);
-	background-image: -o-linear-gradient(bottom, #3A3D38 60%, #10120F 100%);
-	background-image: -moz-linear-gradient(bottom, #3A3D38 60%, #10120F 100%);
-	background-image: -webkit-linear-gradient(bottom, #3A3D38 60%, #10120F 100%);
-	background-image: -ms-linear-gradient(bottom, #3A3D38 60%, #10120F 100%);
-	background-image: linear-gradient(to bottom, #3A3D38 60%, #10120F 100%);
+	background-image: -o-linear-gradient(bottom, #0A080A 51%, #292729 88%);
+	background-image: -moz-linear-gradient(bottom, #0A080A 51%, #292729 88%);
+	background-image: -webkit-linear-gradient(bottom, #0A080A 51%, #292729 88%);
+	background-image: -ms-linear-gradient(bottom, #0A080A 51%, #292729 88%);
+	background-image: linear-gradient(to bottom, #0A080A 51%, #292729 88%);
     background-repeat: repeat-x;
     text-align:left;
     font-family: calibri, arial, tahoma;
