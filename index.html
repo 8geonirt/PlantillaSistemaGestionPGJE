@@ -62,12 +62,12 @@
 			</div>
 
 		</nav>
-		<div id="container" class="jumbotron">
+		<div class="jumbotron container">
 			<div class="row">
-				<div class="col-md-7">
+				<div class="col-lg-7 col-md-6">
 					<h2 class="titulo_encabezado_1">Solicitud de</h2><h2 class="titulo_encabezado_2">Actas del Registro Civil</h2>
 				</div>
-				<div class="col-md-5 fondo_banner">
+				<div class="col-lg-5 col-md-6 fondo_banner">
 					<figure class="logo">
 						<img src="img/volcanes-color.png" >
 					</figure>
@@ -89,13 +89,13 @@
 				<i class="fa fa-warning fa-2x amarillo">&nbsp;</i><label class="fuente_roja">Nota:</label> Se requiere que la información proporcionada sea correcta para poder porporcionar un servicio de calidad
 			</div>
 			<div class="row">
-				<div class="col-lg-6 col-md-5 col-sm-1 col-xs-0">&nbsp;</div>				
+				<div class="col-lg-6 col-md-5 col-sm-6 col-xs-0">&nbsp;</div>				
 				<div class="col-lg-4 col-md-5 col-sm-6 col-xs-12">
-					<a href="#" class="btn btn-success_modificado"><i class="fa fa-cloud-download alineacion_centrada">Descargar manual</i></a>
-					<a href="#" class="btn btn-success_modificado"><i class="fa fa-envelope alineacion_centrada">Cont&aacute;ctanos&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i></a>
+					<a href="#" class="btn btn-success_modificado"><i class="fa fa-cloud-download alineacion_centrada">&nbsp;Descargar manual</i></a>
+					<a href="#" class="btn btn-success_modificado"><i class="fa fa-envelope alineacion_centrada">&nbsp;Cont&aacute;ctanos&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i></a>
 				</div>
-				<div class="col-lg-2 col-md-1 col-sm-1 col-xs-0">&nbsp;</div>
-				<div class="col-lg-2 col-md-1 col-sm-4 col-xs-0">&nbsp;</div>
+				<div class="col-lg-2 col-md-1 col-sm-0 col-xs-0">&nbsp;</div>
+				<div class="col-lg-2 col-md-1 col-sm-0 col-xs-0">&nbsp;</div>
 			</div>
 			<br/>
 			<div class="row">
@@ -133,23 +133,36 @@
 						<label class="col-lg-4 col-md-3 col-sm-4 col-xs-6 text-right control-label">Fecha de Nacimiento</label>
 						<div class="col-lg-8 col-md-9 col-sm-8 col-xs-6">
 							<input id="fecha_nacimiento" name="fecha_nacimiento" type="date" placeholder="" class="input-md btn-margin" required="">
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-lg-4 col-md-3 col-sm-4 col-xs-6 text-right control-label">&nbsp;</label>
+						<div class="col-lg-8 col-md-9 col-sm-8 col-xs-6">
 							<button id="mostrarActa" name="mostrarActa" class="btn btn-primary btn-margin">Mostrar acta</button>
 							<button id="siguiente" name="siguiente" class="btn btn-primary">Siguiente&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
 						</div>
 					</div>
-
 				</form>
 			</div>
 		</div>
-		<div id="footer">
+  			<div id="contenido" align="center">
+  				Para que el sitio funcione correctamente es necesario tener<br/> 
+				instalado el Acrobat Reader. Haz click <a href="http://get.adobe.com/es/reader/" target="_blank">aqu&iacute;</a> para instalarlo.
+				<br/>
+				<img src="img/adobe_reader.png"/>
+			</div>
+		<div id="footer" class="container">
 			<div class="container_footer">  
 				<div class="row container_footer">
 					<div class="col-md-3">
-						<img src="img/icono_gobierno.png" width="75px" /> Gobierno del Estado de Colima
+						<img src="img/icono_gobierno.png" /> 
 						<p>	Complejo Administrativo del<br/>
 							Gobierno del Estado 3er. Anillo Perif&eacute;rico, 
 							Esq. Ej&eacute;rcito <br/> Mexicano S/N. Colonia el Diezmo 
 							Tel. (312)<br/> 316 2000 C.P. 28010, Colima, Colima, México. 
+						</p>
+						<p>
+							<img src="img/ico_separacion2.png" />
 						</p>
 					</div>
 				  	<div class="col-md-3">

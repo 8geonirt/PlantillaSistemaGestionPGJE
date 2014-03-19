@@ -1,5 +1,6 @@
 ﻿html{
 	position: relative;
+	width:expression(document.body.clientWidth < 600? "600px": "auto" );
 }
 body {
   margin-bottom: 60px;
@@ -122,8 +123,13 @@ body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
 }
-
+.fuente_chica{
+	font-size: 12px;
+}
 #footer {
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
     background-color:#181A1F;
     background-image: -webkit-gradient(
 		linear,
@@ -152,7 +158,14 @@ body {
 /* Custom page CSS
 -------------------------------------------------- */
 /* Not required for template or sticky footer method. */
-
+#contenedor {
+	height: 100px;
+}
+#contenido {
+	height: 50px;
+	margin: 0 auto 0 auto; 
+	width: 50%;
+}
 .container_footer {
   width: auto;
   height:100%;
