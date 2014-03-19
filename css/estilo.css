@@ -3,7 +3,7 @@
 	width:expression(document.body.clientWidth < 600? "600px": "auto" );
 }
 body {
-  margin-bottom: 60px;
+  	margin-bottom: 60px;
 }
 .cn{
 	font-size: 20px;
@@ -113,15 +113,12 @@ body {
 	color:white;
 	font-size: 16px;
 	font-weight:normal;
-}/* Sticky footer styles
--------------------------------------------------- */
 html {
-  position: relative;
-  min-height: 100%;
+  	position: relative;
+  	min-height: 100%;
 }
 body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
+	margin-bottom: 60px;
 }
 .fuente_chica{
 	font-size: 12px;
@@ -153,11 +150,6 @@ body {
 	margin-top:50px;
 	padding-top:0px;
 }
-
-
-/* Custom page CSS
--------------------------------------------------- */
-/* Not required for template or sticky footer method. */
 #contenedor {
 	height: 100px;
 }
@@ -167,10 +159,10 @@ body {
 	width: 50%;
 }
 .container_footer {
-  width: auto;
-  height:100%;
-  padding: 0 15px;
+  	width: auto;
+ 	height:100%;
+ 	padding: 0 15px;
 }
 .container .text-muted {
-  margin: 20px 0;
+  	margin: 20px 0;
 }
